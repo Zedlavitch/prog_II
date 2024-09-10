@@ -1,7 +1,7 @@
 const articleDbModel = require('../models/article')
 const articleModel = new articleDbModel ();
 
-class artcileController {
+class articleController {
     constructor() {
         const articles = []
     }
@@ -12,4 +12,4 @@ class artcileController {
     }
 }
 
-module.exports = artcileController
+module.exports = articleController
