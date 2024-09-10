@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 const articleControllerClass = require('./controllers/article')
 const articleController = new articleControllerClass()
 
-const articleRoutes = require(./routes/articles);
+const articleRoutes = require('./routes/articles');
 app.use('/', articleRoutes);
 
 app.listen(3025, () => {
