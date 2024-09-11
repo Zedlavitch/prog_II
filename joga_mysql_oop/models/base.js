@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 const conn = require('../utils/db'); 
+=======
+const conn = require('../utils/db');
+>>>>>>> 341c59b (.gitignore)
 
 class BaseSQLModel {
   constructor(tableName) {
